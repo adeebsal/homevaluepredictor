@@ -7,3 +7,4 @@ TODO:
 - add instructions for generating a model
 - add instructions for using the model that we used in our final presentation
 - add descriptors of dataset
+- clean up and organize into python and R implementation branches or folders
