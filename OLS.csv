@@ -1,0 +1,2 @@
+,Model,Predictors,MSE
+0,Linear,"['Home_size*Parcel_size', 'Home_size*Parcel_size^2', 'Home_size^2']",11135.96858206218

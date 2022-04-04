@@ -1,0 +1,26 @@
+List of issues to tackle:
+[x] Section D and maybe others: Handling of NAs and other out-of-range values
+    (working as intended)
+[] polynomial features may be working incorrectly
+    (oh well)
+[x] confirm crossval works correctly
+    (yeah it works but it's weird to set up
+[] clean up poly selection routine and confirm function
+    (heh nope)
+[x] create section E doing all required tasks on full dataset
+    [x] estimation
+    [x] ROC graph
+    [x] AUC calc
+    [x] compute confusion matrix
+    [x] classifier sensitivity
+    [x] specificity
+    [x] false-pos rate
+    [x] false-neg rate
+    [x] accuracy
+    [x] overall error rate
+    [x] relative performance vs section C
+    
+
+best model for classification based upon the 10-fold cross validation misclassification rate (i.e., the average over the 10 folds).
+
+Once you have identified the best model and the probability cut-off/threshold associated with the minimum misclassification rate, re-estimate the model with the full dataset and calculate the confusion matrix and various classification statistics (auc, misclassification rate, sensitivity, specificity, accuracy) associated with the minimum misclassification rate determined from 10-fold cross validation. You do not re-determine the optimal cutoff after estimating the model with the full dataset.
